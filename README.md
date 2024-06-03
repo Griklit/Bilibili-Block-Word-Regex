@@ -17,3 +17,31 @@
 ## 非针对目标
 
 - **辱骂/人身攻击**
+
+## 目录结构
+
+```
+(root)
+├── Regex                                   正则原文
+│   └── *.csv
+├── Regex-XML                               可导入XML格式文件
+│   ├── All.xml                             包含全部内容
+│   └── *.xml                               各分类下可导入正则XML文件
+├── Scripts                                 运行脚本
+│   ├── match_test.py                       正则匹配测试
+│   └── to_xml.py                           CSV转换为XML格式
+├── LICENSE                                 许可
+└── README.md                               说明
+```
+
+
+
+
+
+
+
+
+
+
+
+
