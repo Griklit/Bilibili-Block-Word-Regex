@@ -22,8 +22,8 @@
 
 ```
 (root)
-├── Regex                                   正则原文
-│   └── *.csv
+├── Regex                                   正则原文（CSV格式）
+│   └── *.csv                               各分类下正则表格
 ├── Regex-XML                               可导入XML格式文件
 │   ├── All.xml                             包含全部内容
 │   └── *.xml                               各分类下可导入正则XML文件
