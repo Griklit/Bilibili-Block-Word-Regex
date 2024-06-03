@@ -1,0 +1,5 @@
+<filters>
+    <item enabled="true">r=^[许还][愿原]</item> <!-- None -->
+    <item enabled="true">r=^吸+(欧气)?$</item> <!-- None -->
+    <item enabled="true">r=^.{0,5}以出$</item> <!-- None -->
+</filters>

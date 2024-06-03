@@ -1,0 +1,3 @@
+<filters>
+    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item> <!-- None -->
+</filters>
