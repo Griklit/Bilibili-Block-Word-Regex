@@ -1,17 +1,17 @@
 <filters>
-    <item enabled="true">r=^打?(蒸发|过载|感电|超导|结晶|扩散|燃烧|融化)(伤害)?(是吧[？\?]?)?$</item> <!-- 元素反应 -->
-    <item enabled="true">r=阿蕾奇诺|千织|闲云|娜维娅|芙宁娜|莱欧斯利|那维莱特|林尼|白术|迪希雅|艾尔海森|流浪者|纳西妲|妮露|赛诺|提纳里|夜兰|神里绫人|八重神子|申鹤|荒泷一斗|珊瑚宫心海|埃洛伊|雷电将军|宵宫|神里绫华|枫原万叶|优菈|胡桃|甘雨|阿贝多|钟离|达达利亚|可莉|温迪|刻晴|迪卢克|莫娜|旅行者|派蒙|七七|嘉明|夏沃蕾|夏洛蒂|菲米尼|琳妮特|绮良良|卡维|米卡|瑶瑶|珐露珊|莱依拉|坎蒂丝|多莉|柯莱|鹿野院平藏|久岐忍|云堇|九条裟罗|早柚|烟绯|罗莎莉亚|辛焱|迪奥娜|雷泽|菲谢尔|香菱|安柏|班尼特|芭芭拉|行秋|凝光|诺艾尔|重云|凯亚</item> <!-- 角色名，易误伤：旅行者 白术 流浪者 申鹤 埃洛伊 雷电将军 胡桃 七七 米卡 瑶瑶 -->
-    <item enabled="true">r=米哈游|mihoyo|米忽悠|mhy|原神|genshin|米游社</item> <!--  -->
-    <item enabled="true">r=提瓦特|蒙德|璃月|稻妻|须弥|枫丹|渊下宫|尘歌壶|层岩巨渊|龙脊雪山</item> <!-- 地名 -->
-    <item enabled="true">r=[1-6一二两三四五六满]命|命座</item> <!-- None -->
-    <item enabled="true">r=丘丘人</item> <!-- None -->
-    <item enabled="true">r=无相之[风火水草岩冰雷]</item> <!-- None -->
-    <item enabled="true">r=愚人众</item> <!-- None -->
-    <item enabled="true">r=镀金旅团</item> <!-- None -->
-    <item enabled="true">r=摩拉|原石</item> <!-- None -->
-    <item enabled="true">r=派[蒙萌梦]</item> <!-- None -->
-    <item enabled="true">r=神瞳|七天神像</item> <!-- None -->
-    <item enabled="true">r=前面的区域以后再来探索吧</item> <!-- None -->
-    <item enabled="true">r=海灯节</item> <!-- None -->
-    <item enabled="true">r=大伟哥</item> <!-- None -->
+    <item enabled="true">r=^打?(蒸发|过载|感电|超导|结晶|扩散|燃烧|融化)(伤害)?(是吧[？\?]?)?$</item><!-- 元素反应 -->
+    <item enabled="true">r=阿蕾奇诺|千织|闲云|娜维娅|芙宁娜|莱欧斯利|那维莱特|林尼|白术|迪希雅|艾尔海森|流浪者|纳西妲|妮露|赛诺|提纳里|夜兰|神里绫人|八重神子|申鹤|荒泷一斗|珊瑚宫心海|埃洛伊|雷电将军|宵宫|神里绫华|枫原万叶|优菈|胡桃|甘雨|阿贝多|钟离|达达利亚|可莉|温迪|刻晴|迪卢克|莫娜|旅行者|派蒙|七七|嘉明|夏沃蕾|夏洛蒂|菲米尼|琳妮特|绮良良|卡维|米卡|瑶瑶|珐露珊|莱依拉|坎蒂丝|多莉|柯莱|鹿野院平藏|久岐忍|云堇|九条裟罗|早柚|烟绯|罗莎莉亚|辛焱|迪奥娜|雷泽|菲谢尔|香菱|安柏|班尼特|芭芭拉|行秋|凝光|诺艾尔|重云|凯亚</item><!-- 角色名，易误伤：旅行者 白术 流浪者 申鹤 埃洛伊 雷电将军 胡桃 七七 米卡 瑶瑶 -->
+    <item enabled="true">r=米哈游|mihoyo|米忽悠|mhy|原神|genshin|米游社</item><!--  -->
+    <item enabled="true">r=提瓦特|蒙德|璃月|稻妻|须弥|枫丹|渊下宫|尘歌壶|层岩巨渊|龙脊雪山</item><!-- 地名 -->
+    <item enabled="true">r=[1-6一二两三四五六满]命|命座</item>
+    <item enabled="true">r=丘丘人</item>
+    <item enabled="true">r=无相之[风火水草岩冰雷]</item>
+    <item enabled="true">r=愚人众</item>
+    <item enabled="true">r=镀金旅团</item>
+    <item enabled="true">r=摩拉|原石</item>
+    <item enabled="true">r=派[蒙萌梦]</item>
+    <item enabled="true">r=神瞳|七天神像</item>
+    <item enabled="true">r=前面的区域以后再来探索吧</item>
+    <item enabled="true">r=海灯节</item>
+    <item enabled="true">r=大伟哥</item>
 </filters>

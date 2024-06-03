@@ -28,6 +28,12 @@ class Rule:
     regex: str
     remarks: str | None
 
+    def to_item(self):
+        s = f'<item enabled="true">r={xml_escape(self.regex)}</item>'
+        if self.remarks is not None:
+            s += f'<!-- {self.remarks} -->'
+        return s
+
 
 def load_rule(csv_file: Path) -> Generator[Rule, None, None]:
     with open(csv_file, newline='', encoding='utf-8') as f:
@@ -40,7 +46,8 @@ def load_rule(csv_file: Path) -> Generator[Rule, None, None]:
 def build_xml_file(rules: Iterable[Rule], xml_file_path: Path):
     xml_output = ['<filters>']
     for rule in rules:
-        xml_output.append(f'    <item enabled="true">r={xml_escape(rule.regex)}</item> <!-- {rule.remarks} -->')
+
+        xml_output.append(f'    {rule.to_item()}')
     xml_output.append('</filters>')
     with open(xml_file_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(xml_output))

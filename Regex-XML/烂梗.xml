@@ -1,16 +1,16 @@
 <filters>
-    <item enabled="true">r=^(你品)?.?你细?品$</item> <!-- 你品你细品 -->
-    <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item> <!-- None -->
-    <item enabled="true">r=^[Oo][Hh]{2,}$</item> <!-- None -->
-    <item enabled="true">r=^(祥瑞(玉|御)兔|羊踹(玉|御)兔).?(家宅平安|(玉|御)兔喊疼)$</item> <!-- None -->
-    <item enabled="true">r=^.{0,4}不能断$</item> <!-- None -->
-    <item enabled="true">r=^下次一定$</item> <!-- None -->
-    <item enabled="true">r=^原来你也(玩原神|\.\.\.|……)?$</item> <!-- None -->
-    <item enabled="true">r=打在[公共工][屏平凭频]上?</item> <!-- None -->
-    <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item> <!-- None -->
-    <item enabled="true">r=♂</item> <!-- None -->
-    <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item> <!-- 妈妈，人生是旷野 -->
-    <item enabled="true">r=[Dd][Nn][Aa]动了</item> <!-- None -->
-    <item enabled="true">r=[多双]厨狂喜</item> <!-- None -->
-    <item enabled="true">r=輮以为[轮论伦]</item> <!-- None -->
+    <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
+    <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item>
+    <item enabled="true">r=^[Oo][Hh]{2,}$</item>
+    <item enabled="true">r=^(祥瑞(玉|御)兔|羊踹(玉|御)兔).?(家宅平安|(玉|御)兔喊疼)$</item>
+    <item enabled="true">r=^.{0,4}不能断$</item>
+    <item enabled="true">r=^下次一定$</item>
+    <item enabled="true">r=^原来你也(玩原神|\.\.\.|……)?$</item>
+    <item enabled="true">r=打在[公共工][屏平凭频]上?</item>
+    <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item>
+    <item enabled="true">r=♂</item>
+    <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item><!-- 妈妈，人生是旷野 -->
+    <item enabled="true">r=[Dd][Nn][Aa]动了</item>
+    <item enabled="true">r=[多双]厨狂喜</item>
+    <item enabled="true">r=輮以为[轮论伦]</item>
 </filters>
