@@ -1,0 +1,71 @@
+<filters>
+    <!-- 动画区 -->
+    <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 指尖跃动的电光此生不变的信仰 -->
+    <item enabled="true">r=^(优雅)?.?(实在是)?太优雅了?$</item>
+    <!-- 原神 -->
+    <item enabled="true">r=^打?(蒸发|过载|感电|超导|结晶|扩散|燃烧|融化)(伤害)?(是吧[？\?]?)?$</item><!-- 元素反应 -->
+    <item enabled="true">r=阿蕾奇诺|千织|闲云|娜维娅|芙宁娜|莱欧斯利|那维莱特|林尼|白术|迪希雅|艾尔海森|流浪者|纳西妲|妮露|赛诺|提纳里|夜兰|神里绫人|八重神子|申鹤|荒泷一斗|珊瑚宫心海|埃洛伊|雷电将军|宵宫|神里绫华|枫原万叶|优菈|胡桃|甘雨|阿贝多|钟离|达达利亚|可莉|温迪|刻晴|迪卢克|莫娜|旅行者|派蒙|七七|嘉明|夏沃蕾|夏洛蒂|菲米尼|琳妮特|绮良良|卡维|米卡|瑶瑶|珐露珊|莱依拉|坎蒂丝|多莉|柯莱|鹿野院平藏|久岐忍|云堇|九条裟罗|早柚|烟绯|罗莎莉亚|辛焱|迪奥娜|雷泽|菲谢尔|香菱|安柏|班尼特|芭芭拉|行秋|凝光|诺艾尔|重云|凯亚</item><!-- 角色名，易误伤：旅行者 白术 流浪者 申鹤 埃洛伊 雷电将军 胡桃 七七 米卡 瑶瑶 -->
+    <item enabled="true">r=米哈游|mihoyo|米忽悠|mhy|原神|genshin|米游社</item><!--  -->
+    <item enabled="true">r=提瓦特|蒙德|璃月|稻妻|须弥|枫丹|渊下宫|尘歌壶|层岩巨渊|龙脊雪山</item><!-- 地名 -->
+    <item enabled="true">r=[1-6一二两三四五六满]命|命座</item>
+    <item enabled="true">r=丘丘人</item>
+    <item enabled="true">r=无相之[风火水草岩冰雷]</item>
+    <item enabled="true">r=愚人众</item>
+    <item enabled="true">r=镀金旅团</item>
+    <item enabled="true">r=摩拉|原石</item>
+    <item enabled="true">r=派[蒙萌梦]</item>
+    <item enabled="true">r=神瞳|七天神像</item>
+    <item enabled="true">r=前面的区域以后再来探索吧</item>
+    <item enabled="true">r=海灯节</item>
+    <item enabled="true">r=大伟哥</item>
+    <!-- 孝子 -->
+    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item>
+    <!-- 小仙女 -->
+    <item enabled="true">r=.+好[帅棒]$</item>
+    <item enabled="true">r=</item>
+    <!-- 抽奖 -->
+    <item enabled="true">r=^[许还][愿原]</item>
+    <item enabled="true">r=^吸+(欧气)?$</item>
+    <item enabled="true">r=^.{0,5}以出$</item>
+    <!-- 暂无分类 -->
+    <item enabled="true">r=^借[你您]吉言$</item>
+    <!-- 游戏区 -->
+    <item enabled="true">r=此生无悔|来世[愿原]做</item>
+    <item enabled="true">r=^您[？\?]?$</item>
+    <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item>
+    <item enabled="true">r=^显卡([：:].+|的香气)</item>
+    <!-- 烂梗 -->
+    <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
+    <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item>
+    <item enabled="true">r=^[Oo][Hh]{2,}$</item>
+    <item enabled="true">r=^(祥瑞(玉|御)兔|羊踹(玉|御)兔).?(家宅平安|(玉|御)兔喊疼)$</item>
+    <item enabled="true">r=^.{0,4}不能断$</item>
+    <item enabled="true">r=^下次一定$</item>
+    <item enabled="true">r=^原来你也(玩原神|\.\.\.|……)?$</item>
+    <item enabled="true">r=打在[公共工][屏平凭频]上?</item>
+    <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item>
+    <item enabled="true">r=♂</item>
+    <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item><!-- 妈妈，人生是旷野 -->
+    <item enabled="true">r=[Dd][Nn][Aa]动了</item>
+    <item enabled="true">r=[多双]厨狂喜</item>
+    <item enabled="true">r=輮以为[轮论伦]</item>
+    <!-- 通用 -->
+    <item enabled="true">r=^[^\u4E00-\u9FA5]$</item><!-- 单个非中文字符 -->
+    <item enabled="true">r=^[\.。,，\/\?？!！~～@\^、+=\-_ ]+$</item><!-- 无意义符号 -->
+    <item enabled="true">r=^(.)\1{5,}$</item><!-- 5个以上重复字符 -->
+    <item enabled="true">r=[!！]{2,}$</item><!-- 2个以上叹号结尾 -->
+    <item enabled="true">r=^(\d+|[一二三四五六七八九十]+)(秒|秒钟|S|s|分|分钟|MIN|Min|min|时|小时|H|h|天|月|年)前?$</item><!-- 某时间前 -->
+    <item enabled="true">r=^(\d+|[一二三四五六七八九十百千万]+)(个?(人|朋友)|[\+加])(你们?[好豪嚎号][啊阿]?|[在再]看)?</item>
+    <item enabled="true">r=^好?早[啊阿]?$</item>
+    <item enabled="true">r=^(霸占)?空[屏瓶]$</item>
+    <item enabled="true">r=^刚刚[！!]*$</item>
+    <item enabled="true">r=^先投[在再]看.?(养成|良好)习惯$</item>
+    <item enabled="true">r=^(好烫)+[[:punct:]]*$</item>
+    <item enabled="true">r=^(\S\s+){3,}\S?$</item><!-- 打 字 带 空 格 -->
+    <item enabled="true">r=^保护$</item>
+    <item enabled="true">r=^暂停看.字$</item>
+    <item enabled="true">r=不喜勿喷[[:punct:]]*$</item>
+    <item enabled="true">r=弹幕礼仪</item>
+    <item enabled="true">r=[\(（](不是|bushi|误|雾|doge|dog)?[\)）]?$</item><!-- （）人（ -->
+    <item enabled="true">r=^《.+》$</item>
+</filters>

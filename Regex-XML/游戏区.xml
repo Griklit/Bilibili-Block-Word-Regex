@@ -1,4 +1,5 @@
 <filters>
+    <!-- 游戏区 -->
     <item enabled="true">r=此生无悔|来世[愿原]做</item>
     <item enabled="true">r=^您[？\?]?$</item>
     <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item>

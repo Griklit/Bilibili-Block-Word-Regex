@@ -25,6 +25,7 @@ def xml_escape(s: str) -> str:
 
 @dataclass
 class Rule:
+    type: str
     regex: str
     remarks: str | None
 
@@ -36,21 +37,29 @@ class Rule:
 
 
 def load_rule(csv_file: Path) -> Generator[Rule, None, None]:
+    type_ = csv_file.stem
     with open(csv_file, newline='', encoding='utf-8') as f:
         csv_reader = csv.DictReader(f, delimiter='\t')
         for row in csv_reader:
             row: dict
-            yield Rule(row['正则'], row['备注'])
+            yield Rule(type_, row['正则'], row['备注'])
+
+
+def load_all_rule() -> Generator[Rule, None, None]:
+    for csv_file in CSV_DIR.glob('*.csv'):
+        yield from load_rule(csv_file)
 
 
 def build_xml_file(rules: Iterable[Rule], xml_file_path: Path):
-    xml_output = ['<filters>']
-    for rule in rules:
-
-        xml_output.append(f'    {rule.to_item()}')
-    xml_output.append('</filters>')
+    last_type: str | None = None
     with open(xml_file_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(xml_output))
+        f.write('<filters>\n')
+        for rule in rules:
+            if rule.type != last_type:
+                f.write(f'    <!-- {rule.type} -->\n')
+                last_type = rule.type
+            f.write(f'    {rule.to_item()}\n')
+        f.write('</filters>')
 
 
 def build():
@@ -58,6 +67,7 @@ def build():
         rules = load_rule(csv_file)
         xml_file = XML_DIR / f'{csv_file.stem}.xml'
         build_xml_file(rules, xml_file)
+    build_xml_file(load_all_rule(), XML_DIR / 'All.xml')
 
 
 if __name__ == '__main__':

@@ -1,4 +1,5 @@
 <filters>
+    <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item>
     <item enabled="true">r=^[Oo][Hh]{2,}$</item>
