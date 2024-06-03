@@ -1,6 +1,6 @@
 <filters>
     <!-- 三连 -->
-    <item enabled="true">r=^先投[在再]看.?(养成|良好)习惯$</item>
+    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item>
     <!-- 动画区 -->
     <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 你指尖跃动的电光，是我此生不变的信仰 -->
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
@@ -24,7 +24,6 @@
     <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item>
     <!-- 小仙女 -->
     <item enabled="true">r=.+[好超][帅棒][！!~]*$</item>
-    <item enabled="true">r=</item>
     <!-- 抽奖 -->
     <item enabled="true">r=^[许还][愿原]</item>
     <item enabled="true">r=^吸+(欧气)?$</item>
@@ -49,7 +48,7 @@
     <item enabled="true">r=♂</item>
     <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item><!-- 妈妈，人生是旷野 -->
     <item enabled="true">r=[Dd][Nn][Aa]动了</item>
-    <item enabled="true">r=[多双]厨狂喜</item>
+    <item enabled="true">r=[多双Nn][厨除处]狂.</item>
     <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中 -->
     <!-- 通用 -->
     <item enabled="true">r=^[^\u4E00-\u9FA5]$</item><!-- 单个非中文字符 -->

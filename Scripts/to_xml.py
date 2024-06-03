@@ -41,6 +41,8 @@ def load_rule(csv_file: Path) -> Generator[Rule, None, None]:
         csv_reader = csv.DictReader(f, delimiter='\t')
         for row in csv_reader:
             row: dict
+            if not row['正则']:
+                continue
             yield Rule(type_, row['正则'], row['备注'])
 
 
