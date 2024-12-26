@@ -13,5 +13,9 @@
     <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item><!-- 妈妈，人生是旷野 -->
     <item enabled="true">r=[Dd][Nn][Aa]动了</item>
     <item enabled="true">r=[多双Nn][厨除处]狂.</item>
+    <item enabled="true">r=[部不]?诗人(握持)?</item>
+    <item enabled="true">r=(my|还在)go[!！]?</item>
+    <item enabled="true">r=迷途之子</item>
+    <item enabled="true">r=主唱太拼命了</item>
     <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中 -->
 </filters>
