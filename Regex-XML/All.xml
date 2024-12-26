@@ -18,7 +18,8 @@
     <item enabled="true">r=(人生|旷野)是(人生|旷野)</item><!-- 妈妈，人生是旷野 -->
     <item enabled="true">r=[Dd][Nn][Aa]动了</item>
     <item enabled="true">r=[多双Nn][厨除处]狂.</item>
-    <item enabled="true">r=[部不]?[诗是]人(握持|我吃)?</item>
+    <item enabled="true">r=[诗是]人([握卧]持|我吃)</item>
+    <item enabled="true">r=[部不]?[诗是]人</item>
     <item enabled="true">r=(my|还在)go[!！]?</item>
     <item enabled="true">r=迷途之子</item>
     <item enabled="true">r=主唱太拼命了</item>
