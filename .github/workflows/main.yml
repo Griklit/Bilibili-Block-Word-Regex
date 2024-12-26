@@ -1,0 +1,60 @@
+name: Run Python Script and Auto Commit Changes
+
+on:
+  push:
+    paths:
+      - 'Regex/**'
+  pull_request:  # 可选，监听 PR 事件
+
+jobs:
+  run-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: 确保不是由 GitHub Actions 提交触发
+      - name: Verify commit author is not GitHub Actions
+        run: |
+          if [[ "$(git log -1 --pretty=format:'%an')" == "github-actions[bot]" ]]; then
+            echo "This commit was made by GitHub Actions. Exiting to prevent a loop."
+            exit 0
+          fi
+
+      # Step 3: 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # Step 4: 安装依赖
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install -r requirements.txt  # 如果有依赖文件
+
+      # Step 5: 运行 Python 脚本
+      - name: Run Python script
+        run: |
+          python ./Scripts/to_xml.py  # 替换为你的脚本路径
+
+      # Step 6: 配置 Git 用户信息
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 7: 检查是否有更改
+      - name: Check for changes
+        run: |
+          git add ./Regex-XML
+          git diff-index --quiet HEAD || echo "Changes detected"
+
+      # Step 8: 提交并推送更改
+      - name: Commit and push changes
+        if: success()
+        run: |
+          git commit -m "chore: csv -> xml" || echo "No changes to commit"
+          git push
