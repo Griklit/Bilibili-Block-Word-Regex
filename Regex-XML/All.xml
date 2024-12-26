@@ -15,7 +15,7 @@
     <item enabled="true">r=打在[公共工][屏平凭频]上?</item>
     <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item>
     <item enabled="true">r=♂</item>
-    <item enabled="true">r=(?=.*人生)(?=.*旷野).*?</item><!-- 妈妈，人生是旷野 -->
+    <item enabled="true">r=(人生|旷野)是(人生|旷野)</item><!-- 妈妈，人生是旷野 -->
     <item enabled="true">r=[Dd][Nn][Aa]动了</item>
     <item enabled="true">r=[多双Nn][厨除处]狂.</item>
     <item enabled="true">r=[部不]?诗人(握持)?</item>
