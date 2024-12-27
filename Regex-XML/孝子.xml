@@ -1,4 +1,4 @@
 <filters>
     <!-- 孝子 -->
-    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item>
+    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item><!--  -->
 </filters>

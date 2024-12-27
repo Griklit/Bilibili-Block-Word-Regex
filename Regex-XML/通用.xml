@@ -8,8 +8,8 @@
     <item enabled="true">r=^(\d+|[一二三四五六七八九十百千万]+)(个?(人|朋友)|[\+加])(你们?[好豪嚎号][啊阿]?|[在再]看)?</item><!-- 4000+个朋友你们好 -->
     <item enabled="true">r=^(好|这么)?早[啊阿]?.?$</item><!-- 好早 -->
     <item enabled="true">r=^来早了.?$</item><!-- 来早了 -->
-    <item enabled="true">r=^最[早晚]的一[次集].?$</item>
-    <item enabled="true">r=^(听说)?来得[早晚]发什么都会火.?$</item>
+    <item enabled="true">r=^最[早晚]的一[次集].?$</item><!--  -->
+    <item enabled="true">r=^(听说)?来得[早晚]发什么都会火.?$</item><!--  -->
     <item enabled="true">r=^(霸占)?空[屏瓶]$</item><!-- 霸占空屏 -->
     <item enabled="true">r=^刚刚[！!]*$</item><!-- 刚刚 -->
     <item enabled="true">r=^[第低地弟][一二三123].？$</item><!-- 第一 -->
@@ -18,9 +18,9 @@
     <item enabled="true">r=^(\S\s+){3,}\S?$</item><!-- 打 字 带 空 格 -->
     <item enabled="true">r=^保护$</item><!-- 保护 -->
     <item enabled="true">r=^暂停看.字$</item><!-- 暂停看红字 -->
-    <item enabled="true">r=不喜勿喷[!！]*$</item>
+    <item enabled="true">r=不喜勿喷[!！]*$</item><!--  -->
     <item enabled="true">r=弹幕礼仪</item><!-- 你把咱大清的弹幕礼仪都给忘了！ -->
     <item enabled="true">r=[\(（](不是|bushi|误|雾|doge|dog)?[\)）]?$</item><!-- 括号星人（bushi -->
-    <item enabled="true">r=[wW万]助攻$</item>
-    <item enabled="true">r=^[陪赔].{1,5}(一起)?看$</item>
+    <item enabled="true">r=[wW万]助攻$</item><!--  -->
+    <item enabled="true">r=^[陪赔].{1,5}(一起)?看$</item><!--  -->
 </filters>
