@@ -2,4 +2,5 @@
     <!-- 霸屏 -->
     <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 你指尖跃动的电光，是我此生不变的信仰 -->
     <item enabled="true">r=^([红赤橙黄绿青蓝靛紫粉白灰黑彩棕金银]|[粉品]红)色?不能[断停]$</item><!--  -->
+    <item enabled="true">r=此生无悔|来世[愿原]做</item><!--  -->
 </filters>

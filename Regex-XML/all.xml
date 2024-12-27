@@ -1,46 +1,12 @@
 <filters>
-    <!-- 低智 -->
-    <item enabled="true">r=[\(（](不是|bushi|误|雾|doge|dog)?[\)）]?$</item><!-- 括号星人（bushi -->
-    <item enabled="true">r=弹幕礼仪</item><!-- 你把咱大清的弹幕礼仪都给忘了！ -->
-    <item enabled="true">r=[!！]{2,}$</item><!-- 2个以上叹号结尾 -->
-    <item enabled="true">r=^借[你您]吉言$,
-^[许还][愿原].{0</item><!-- 8}$" -->
-    <item enabled="true">r=^吸+(欧气)?$</item><!--  -->
-    <item enabled="true">r=^.{0,5}[已以]出(.?前来.｛1,3｝)?$</item><!--  -->
-    <!-- 孝子 -->
-    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item><!--  -->
-    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item><!--  -->
-    <!-- 无意义 -->
-    <item enabled="true">r=^[^\u4E00-\u9FA5]$</item><!-- 单个非中文字符 -->
-    <item enabled="true">r=^[\.。,，\/\?？!！~～@\^、+=\-_ ]+$</item><!-- 无意义符号 -->
-    <item enabled="true">r=^(.)\1{5,}$</item><!-- 5个以上重复字符 -->
-    <item enabled="true">r=^(\d+|[一二三四五六七八九十]+)(秒|秒钟|S|s|分|分钟|MIN|Min|min|时|小时|H|h|天|月|年)前?$</item><!-- 某时间前 -->
-    <item enabled="true">r=^(\d+|[一二三四五六七八九十百千万]+)(个?(人|朋友)|[\+加])(你们?[好豪嚎号][啊阿]?|[在再]看)?</item><!-- 4000+个朋友你们好 -->
-    <item enabled="true">r=^(好|这么)?早[啊阿]?.?$</item><!-- 好早 -->
-    <item enabled="true">r=^来早了.?$</item><!-- 来早了 -->
-    <item enabled="true">r=^最[早晚]的一[次集].?$</item><!--  -->
-    <item enabled="true">r=^(听说)?来得[早晚]发什么都会火.?$</item><!--  -->
-    <item enabled="true">r=^(霸占)?空[屏瓶]$</item><!-- 霸占空屏 -->
-    <item enabled="true">r=^刚刚[！!]*$</item><!-- 刚刚 -->
-    <item enabled="true">r=^[第低地弟][一二三123].？$</item><!-- 第一 -->
-    <item enabled="true">r=^(好烫)+[!！~]*$</item><!-- 好烫 -->
-    <item enabled="true">r=^热乎的?$</item><!-- 热乎 -->
-    <item enabled="true">r=^暂停看.字$</item><!-- 暂停看红字 -->
-    <item enabled="true">r=[wW万]助攻$</item><!--  -->
-    <item enabled="true">r=^[陪赔].{1,5}(一起)?看$</item><!--  -->
-    <!-- 游戏区 -->
-    <item enabled="true">r=此生无悔|来世[愿原]做</item><!--  -->
-    <item enabled="true">r=^您[？\?]?$</item><!--  -->
-    <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item><!--  -->
-    <item enabled="true">r=^显卡([：:].+|的香气)</item><!--  -->
+    <!-- 饭圈 -->
+    <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
     <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item><!--  -->
     <item enabled="true">r=^[Oo][Hh]{2,}$</item><!--  -->
     <item enabled="true">r=^(祥瑞[玉御]兔|羊踹[玉御]兔).?(家宅平安|[玉御]兔喊疼)$</item><!--  -->
-    <item enabled="true">r=^.{0,4}不能断$</item><!--  -->
     <item enabled="true">r=^下次一定$</item><!--  -->
-    <item enabled="true">r=打在[公共工][屏平凭频]上?</item><!--  -->
     <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item><!--  -->
     <item enabled="true">r=♂</item><!--  -->
     <item enabled="true">r=(人生|旷野)是(人生|旷野)</item><!-- 妈妈，人生是旷野 -->
@@ -54,6 +20,18 @@
     <item enabled="true">r=(人机|仁济).{0,4}</item><!--  -->
     <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中 -->
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
+    <!-- 低智 -->
+    <item enabled="true">r=[\(（](不是|bushi|误|雾|doge|dog)?[\)）]?$</item><!-- 括号星人（bushi -->
+    <item enabled="true">r=弹幕礼仪</item><!-- 你把咱大清的弹幕礼仪都给忘了！ -->
+    <item enabled="true">r=[!！]{2,}$</item><!-- 2个以上叹号结尾 -->
+    <item enabled="true">r=^借[你您]吉言$,
+^[许还][愿原].{0</item><!-- 8}$" -->
+    <item enabled="true">r=^吸+(欧气)?$</item><!--  -->
+    <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item><!--  -->
+    <item enabled="true">r=^.{0,5}[已以]出(.?前来.｛1,3｝)?$</item><!--  -->
+    <item enabled="true">r=打在[公共工][屏平凭频]上?</item><!--  -->
+    <item enabled="true">r=^显卡([：:].+|的香气)</item><!--  -->
+    <item enabled="true">r=^您[？\?]?$</item><!--  -->
     <!-- 米哈游 -->
     <item enabled="true">r=^打?(蒸发|过载|感电|超导|结晶|扩散|燃烧|融化)(伤害)?(是吧[？\?]?)?$</item><!-- 元素反应 -->
     <item enabled="true">r=阿蕾奇诺|千织|闲云|娜维娅|芙宁娜|莱欧斯利|那维莱特|林尼</item><!--  -->
@@ -80,13 +58,33 @@
     <item enabled="true">r=海灯节</item><!--  -->
     <item enabled="true">r=大伟哥</item><!--  -->
     <item enabled="true">r=原神|[Gg]enshin</item><!--  -->
-    <item enabled="true">r=星穹铁道|星铁</item><!--  -->
+    <item enabled="true">r=星穹铁道|[星崩]铁</item><!--  -->
     <item enabled="true">r=绝区零|^[Zz]{3}$</item><!--  -->
     <item enabled="true">r=崩坏?[一二三123]</item><!--  -->
     <item enabled="true">r=^原来你也(玩原神[\?？]?|\.\.\.|……)?$</item><!--  -->
+    <!-- 孝子 -->
+    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item><!--  -->
+    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item><!--  -->
     <!-- 霸屏 -->
     <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 你指尖跃动的电光，是我此生不变的信仰 -->
     <item enabled="true">r=^([红赤橙黄绿青蓝靛紫粉白灰黑彩棕金银]|[粉品]红)色?不能[断停]$</item><!--  -->
-    <!-- 饭圈 -->
-    <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
+    <item enabled="true">r=此生无悔|来世[愿原]做</item><!--  -->
+    <!-- 无意义 -->
+    <item enabled="true">r=^[^\u4E00-\u9FA5]$</item><!-- 单个非中文字符 -->
+    <item enabled="true">r=^[\.。,，\/\?？!！~～@\^、+=\-_ ]+$</item><!-- 无意义符号 -->
+    <item enabled="true">r=^(.)\1{5,}$</item><!-- 5个以上重复字符 -->
+    <item enabled="true">r=^(\d+|[一二三四五六七八九十]+)(秒|秒钟|S|s|分|分钟|MIN|Min|min|时|小时|H|h|天|月|年)前?$</item><!-- 某时间前 -->
+    <item enabled="true">r=^(\d+|[一二三四五六七八九十百千万]+)(个?(人|朋友)|[\+加])(你们?[好豪嚎号][啊阿]?|[在再]看)?</item><!-- 4000+个朋友你们好 -->
+    <item enabled="true">r=^(好|这么)?早[啊阿]?.?$</item><!-- 好早 -->
+    <item enabled="true">r=^来早了.?$</item><!-- 来早了 -->
+    <item enabled="true">r=^最[早晚]的一[次集].?$</item><!--  -->
+    <item enabled="true">r=^(听说)?来得[早晚]发什么都会火.?$</item><!--  -->
+    <item enabled="true">r=^(霸占)?空[屏瓶]$</item><!-- 霸占空屏 -->
+    <item enabled="true">r=^刚刚[！!]*$</item><!-- 刚刚 -->
+    <item enabled="true">r=^[第低地弟][一二三123].？$</item><!-- 第一 -->
+    <item enabled="true">r=^(好烫)+[!！~]*$</item><!-- 好烫 -->
+    <item enabled="true">r=^热乎的?$</item><!-- 热乎 -->
+    <item enabled="true">r=^暂停看.字$</item><!-- 暂停看红字 -->
+    <item enabled="true">r=[wW万]助攻$</item><!--  -->
+    <item enabled="true">r=^[陪赔].{1,5}(一起)?看$</item><!--  -->
 </filters>
