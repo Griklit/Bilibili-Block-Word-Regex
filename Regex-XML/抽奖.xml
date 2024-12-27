@@ -1,6 +1,0 @@
-<filters>
-    <!-- 抽奖 -->
-    <item enabled="true">r=^[许还][愿原]</item><!--  -->
-    <item enabled="true">r=^吸+(欧气)?$</item><!--  -->
-    <item enabled="true">r=^.{0,5}[已以]出$</item><!--  -->
-</filters>

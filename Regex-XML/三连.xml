@@ -1,4 +1,0 @@
-<filters>
-    <!-- 三连 -->
-    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item><!--  -->
-</filters>

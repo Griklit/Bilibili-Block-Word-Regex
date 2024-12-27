@@ -66,7 +66,7 @@ def build_xml_file(rules: Iterable[Rule], xml_file_path: Path):
 def build():
     for csv_file in CSV_DIR.glob('*.csv'):
         build_xml_file(load_rule(csv_file), XML_DIR / f'{csv_file.stem}.xml')
-    build_xml_file(load_all_rule(), XML_DIR / 'All.xml')
+    build_xml_file(load_all_rule(), XML_DIR / 'all.xml')
 
 
 if __name__ == '__main__':
