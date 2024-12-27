@@ -64,6 +64,7 @@ def build_xml_file(rules: Iterable[Rule], xml_file_path: Path):
 
 
 def build():
+    XML_DIR.mkdir(parents=True, exist_ok=True)
     for csv_file in CSV_DIR.glob('*.csv'):
         build_xml_file(load_rule(csv_file), XML_DIR / f'{csv_file.stem}.xml')
     build_xml_file(load_all_rule(), XML_DIR / 'all.xml')
