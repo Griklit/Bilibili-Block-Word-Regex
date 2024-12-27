@@ -4,7 +4,7 @@
     <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item><!--  -->
-    <item enabled="true">r=^[Oo][Hh]{2,}$</item><!--  -->
+    <item enabled="true">r=^[Oo]+[Hh]+$</item><!--  -->
     <item enabled="true">r=^(祥瑞[玉御]兔|羊踹[玉御]兔).?(家宅平安|[玉御]兔喊疼)$</item><!--  -->
     <item enabled="true">r=^下次一定$</item><!--  -->
     <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item><!--  -->
@@ -44,7 +44,7 @@
     <item enabled="true">r=香菱|安柏|班尼特|芭芭拉|行秋|凝光|诺艾尔|重云</item><!--  -->
     <item enabled="true">r=凯亚</item><!--  -->
     <item enabled="true">r=旅行者|白术|流浪者|申鹤|埃洛伊|雷电将军|胡桃|七七|米卡|瑶瑶</item><!-- 有误伤可能 -->
-    <item enabled="true">r=米哈游|mihoyo|米忽悠|mhy|米游社</item><!--  -->
+    <item enabled="true">r=米哈游|mih[oa]you?|米忽悠|mhy|米游社</item><!--  -->
     <item enabled="true">r=提瓦特|蒙德|璃月|稻妻|须弥|枫丹|渊下宫|尘歌壶|层岩巨渊|龙脊雪山</item><!-- 地名 -->
     <item enabled="true">r=[1-6一二两三四五六满]命|命座</item><!--  -->
     <item enabled="true">r=丘丘人</item><!--  -->

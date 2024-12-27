@@ -2,7 +2,7 @@
     <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item><!--  -->
-    <item enabled="true">r=^[Oo][Hh]{2,}$</item><!--  -->
+    <item enabled="true">r=^[Oo]+[Hh]+$</item><!--  -->
     <item enabled="true">r=^(祥瑞[玉御]兔|羊踹[玉御]兔).?(家宅平安|[玉御]兔喊疼)$</item><!--  -->
     <item enabled="true">r=^下次一定$</item><!--  -->
     <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item><!--  -->
