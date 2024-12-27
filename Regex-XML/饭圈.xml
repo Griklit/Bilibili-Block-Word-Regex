@@ -1,0 +1,4 @@
+<filters>
+    <!-- 饭圈 -->
+    <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
+</filters>
