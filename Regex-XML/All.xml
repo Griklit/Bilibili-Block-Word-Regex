@@ -1,24 +1,9 @@
 <filters>
-    <!-- 三连 -->
-    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item><!--  -->
+    <!-- 小仙女 -->
+    <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
     <!-- 动画区 -->
     <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 你指尖跃动的电光，是我此生不变的信仰 -->
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
-    <!-- 孝子 -->
-    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item><!--  -->
-    <!-- 小仙女 -->
-    <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
-    <!-- 抽奖 -->
-    <item enabled="true">r=^[许还][愿原]</item><!--  -->
-    <item enabled="true">r=^吸+(欧气)?$</item><!--  -->
-    <item enabled="true">r=^.{0,5}[已以]出$</item><!--  -->
-    <!-- 暂无分类 -->
-    <item enabled="true">r=^借[你您]吉言$,</item>
-    <!-- 游戏区 -->
-    <item enabled="true">r=此生无悔|来世[愿原]做</item><!--  -->
-    <item enabled="true">r=^您[？\?]?$</item><!--  -->
-    <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item><!--  -->
-    <item enabled="true">r=^显卡([：:].+|的香气)</item><!--  -->
     <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item><!--  -->
@@ -69,6 +54,21 @@
     <item enabled="true">r=绝区零|^[Zz]{3}$</item><!--  -->
     <item enabled="true">r=崩坏?[一二三123]</item><!--  -->
     <item enabled="true">r=^原来你也(玩原神[\?？]?|\.\.\.|……)?$</item><!--  -->
+    <!-- 游戏区 -->
+    <item enabled="true">r=此生无悔|来世[愿原]做</item><!--  -->
+    <item enabled="true">r=^您[？\?]?$</item><!--  -->
+    <item enabled="true">r=^(献祭|祭献|用).+[换出抽].+</item><!--  -->
+    <item enabled="true">r=^显卡([：:].+|的香气)</item><!--  -->
+    <!-- 孝子 -->
+    <item enabled="true">r=^不看就?(滚|右上角|叉号)$</item><!--  -->
+    <!-- 暂无分类 -->
+    <item enabled="true">r=^借[你您]吉言$,</item>
+    <!-- 三连 -->
+    <item enabled="true">r=^先投[在再]看.?([养已以]成|良好)习惯$</item><!--  -->
+    <!-- 抽奖 -->
+    <item enabled="true">r=^[许还][愿原]</item><!--  -->
+    <item enabled="true">r=^吸+(欧气)?$</item><!--  -->
+    <item enabled="true">r=^.{0,5}[已以]出$</item><!--  -->
     <!-- 通用 -->
     <item enabled="true">r=^[^\u4E00-\u9FA5]$</item><!-- 单个非中文字符 -->
     <item enabled="true">r=^[\.。,，\/\?？!！~～@\^、+=\-_ ]+$</item><!-- 无意义符号 -->
