@@ -38,7 +38,7 @@ class Rule:
 def load_rule(csv_file: Path) -> Generator[Rule, None, None]:
     type_ = csv_file.stem
     with open(csv_file, newline='', encoding='utf-8') as f:
-        csv_reader = csv.DictReader(f, delimiter='\t')
+        csv_reader = csv.DictReader(f)
         for row in csv_reader:
             row: dict
             if not row['正则']:
