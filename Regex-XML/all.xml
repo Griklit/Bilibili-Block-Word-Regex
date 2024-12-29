@@ -18,6 +18,7 @@
     <item enabled="true">r=迷途之子</item><!--  -->
     <item enabled="true">r=主唱太拼命了</item><!--  -->
     <item enabled="true">r=(人机|仁济).{0,4}</item><!--  -->
+    <item enabled="true">r=^[^飞时生动危司相主无座母商天样停趁借点转契客手玄耳死]机$</item><!--  -->
     <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中 -->
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
     <!-- 低智 -->
