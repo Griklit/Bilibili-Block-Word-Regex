@@ -2,21 +2,21 @@
     <!-- 烂梗 -->
     <item enabled="true">r=^(你品)?.?你细?品$</item><!-- 你品你细品 -->
     <item enabled="true">r=^(小朋友)?.?你是否有[很许]多(问号|问好|？|\?)$</item><!--  -->
-    <item enabled="true">r=^[Oo]+[Hh]+$</item><!--  -->
+    <item enabled="true">r=^[Oo]+[Hh]+[!！]*$</item><!-- OOOOOOOOOOOOHHHHHHHHHHHHHHHHHH -->
     <item enabled="true">r=^(祥瑞[玉御]兔|羊踹[玉御]兔).?(家宅平安|[玉御]兔喊疼)$</item><!--  -->
     <item enabled="true">r=^下次一定$</item><!--  -->
     <item enabled="true">r=^(同样)?是?(九年)?义务教育.*秀</item><!--  -->
     <item enabled="true">r=♂</item><!--  -->
-    <item enabled="true">r=(人生|旷野)是(人生|旷野)</item><!-- 妈妈，人生是旷野 -->
+    <item enabled="true">r=(人生|旷野)是(人生|旷野)</item><!-- 妈妈，人生是旷野（无法洞悉本梗诡异的精神内核及其目的表达） -->
     <item enabled="true">r=[Dd][Nn][Aa]动了</item><!--  -->
-    <item enabled="true">r=[多双Nn][厨除处]狂.$</item><!--  -->
-    <item enabled="true">r=[诗是]人[握卧我][吃持].?$</item><!--  -->
+    <item enabled="true">r=[多双Nn][厨除处]狂.$</item><!-- 去你妈的 -->
+    <item enabled="true">r=[诗是]人[握卧我][吃持].?$</item><!-- 2024最烂烂梗 -->
     <item enabled="true">r=[部不]诗人</item><!--  -->
-    <item enabled="true">r=(my|还在)go[!！]?</item><!--  -->
-    <item enabled="true">r=迷途之子</item><!--  -->
+    <item enabled="true">r=(my|还在)go[!！]?</item><!-- gop特有的听到类似发音就应激 -->
+    <item enabled="true">r=迷途之子</item><!-- 不太可能出现歧义，不写多余的匹配规则了 -->
     <item enabled="true">r=主唱太拼命了</item><!--  -->
-    <item enabled="true">r=(人机|仁济).{0,4}</item><!--  -->
-    <item enabled="true">r=^[^飞时生动危司相主无座母商天样停趁借点转契客手玄耳死]机$</item><!--  -->
-    <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中 -->
+    <item enabled="true">r=(人机|仁济).{0,4}</item><!-- 人机XX -->
+    <item enabled="true">r=^[^飞时生动危司相主无座母商天样停趁借点转契客手玄耳死]机$</item><!-- “X机”，表达X是人机，尽量在不误伤正常词汇了 -->
+    <item enabled="true">r=輮以为[轮论伦]</item><!-- 出现在任何有关木头、竹子弯曲的视频中（这群人的错别字也太多了） -->
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
 </filters>
