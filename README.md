@@ -30,14 +30,14 @@ Web界面切换至 `屏蔽设定` 选项卡，右键，选择 `导入xml文件` 
 
 ```
 (root)
-├── Regex                                   正则原文（CSV格式）
-│   └── *.csv                               各分类下正则表格
-├── Regex-XML                               可导入XML格式文件
-│   ├── All.xml                             包含全部内容
-│   └── *.xml                               各分类下可导入正则XML文件
-├── Scripts                                 运行脚本
+├── Regex                                   正则原始数据（csv格式）
+│   └── *.csv                               各分类下对应的正则表格
+├── Regex-XML                               可用于导入的XML格式文件
+│   ├── all.xml                             全部正则的集合
+│   └── *.xml                               各分类下的可导入正则XML文件
+├── Scripts                                 脚本
 │   ├── match_test.py                       正则匹配测试
-│   └── to_xml.py                           CSV转换为XML格式
+│   └── to_xml.py                           .csv 转 .xml
 ├── LICENSE                                 许可
 └── README.md                               说明
 ```
