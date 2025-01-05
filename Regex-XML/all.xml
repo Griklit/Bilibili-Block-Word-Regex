@@ -89,4 +89,5 @@
     <item enabled="true">r=[wW万]助攻$</item><!--  -->
     <item enabled="true">r=^[陪赔].{1,5}(一起)?看$</item><!--  -->
     <item enabled="true">r=(20)?[1-9]{2}年?(前来)?[考烤][古股]</item><!--  -->
+    <item enabled="true">r=^@.{1,8}$</item><!--  -->
 </filters>
