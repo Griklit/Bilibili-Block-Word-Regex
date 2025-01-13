@@ -50,8 +50,7 @@
     <item enabled="true">r=[1-6一二两三四五六满]命|命座</item><!-- 近期一些其他抽卡游戏也采用这种机制与说法了，不过都是二游弱智，一并屏蔽了也无妨 -->
     <item enabled="true">r=丘丘(人|病了)</item><!--  -->
     <item enabled="true">r=无相之[风火水草岩冰雷]</item><!--  -->
-    <item enabled="true">r=愚人众</item><!--  -->
-    <item enabled="true">r=镀金旅团</item><!--  -->
+    <item enabled="true">r=愚人众|镀金旅团|欢愉|仙(家军|不灭|帝)|仙舟|巡猎</item><!--  -->
     <item enabled="true">r=摩拉|原石</item><!--  -->
     <item enabled="true">r=派[蒙萌梦]</item><!--  -->
     <item enabled="true">r=神瞳|七天神像</item><!--  -->
