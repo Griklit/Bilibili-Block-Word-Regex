@@ -21,7 +21,7 @@
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
     <item enabled="true">r=^接+$</item><!--  -->
     <item enabled="true">r=([5五]字神人|([Ii][Dd]|名[字子称])字数)</item><!--  -->
-    <item enabled="true">r=懂.*救赎感.*懂</item><!--  -->
+    <item enabled="true">r=(懂|知道).*救赎感.*(懂|知道)</item><!--  -->
     <!-- 霸屏 -->
     <item enabled="true">r=指尖跃动的电光|此生不变的信仰</item><!-- 你指尖跃动的电光，是我此生不变的信仰 -->
     <item enabled="true">r=^([红赤橙黄绿青蓝靛紫粉白灰黑彩棕金银]|[粉品]红)色?不能[断停]$</item><!--  -->
