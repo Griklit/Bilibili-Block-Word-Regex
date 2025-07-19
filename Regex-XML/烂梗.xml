@@ -21,5 +21,5 @@
     <item enabled="true">r=^(优雅)?.?(实在是?)?太优雅了?[!！]*$</item><!-- 优雅，实在是太优雅了！ -->
     <item enabled="true">r=^接+$</item><!--  -->
     <item enabled="true">r=([5五]字神人|([Ii][Dd]|名[字子称])字数)</item><!--  -->
-    <item enabled="true">r=(懂|知道).*救赎感.*(懂|知道)</item><!--  -->
+    <item enabled="true">r=(懂|知道).*救赎感|救赎感.*(懂|知道)</item><!-- 谁懂XXX的救赎感啊？ -->
 </filters>
