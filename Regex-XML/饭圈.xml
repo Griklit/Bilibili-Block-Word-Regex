@@ -1,4 +1,5 @@
 <filters>
     <!-- 饭圈 -->
     <item enabled="true">r=.+[好超][帅棒][！!~]*$</item><!--  -->
+    <item enabled="true">r=啊{3,}</item><!--  -->
 </filters>
